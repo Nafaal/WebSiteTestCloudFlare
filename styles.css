@@ -433,7 +433,26 @@ body {
 .site-footer { background: #05090c; }
 .back-top span { color: var(--brand-cyan); }
 
+.brand {
+  width: auto;
+  gap: 0;
+  font-size: 0;
+  letter-spacing: 0;
+}
+.brand-logo { display: block; width: 112px; height: auto; }
+.brand-footer .brand-logo { width: 138px; }
+.art-core { background: #060b10; border: 1px solid #168bff55; }
+.hero-symbol {
+  display: block;
+  width: 96px;
+  height: auto;
+  transform: rotate(-45deg);
+}
+
 @media (max-width: 620px) {
+  .brand-logo { width: 94px; }
+  .brand-footer .brand-logo { width: 116px; }
+  .hero-symbol { width: 84px; }
   .primary-nav { background: #080e12; }
   .nav-cta { border-color: #3b4a55; }
 }
