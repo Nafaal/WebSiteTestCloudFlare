@@ -345,9 +345,9 @@ body {
 .site-header { border-bottom-color: #168bff20; }
 .brand { color: #f3f6f8; }
 .brand-light { color: #becbd3; }
-.brand-mark { background: var(--brand-gradient); box-shadow: 0 0 22px #0879ff40; }
-.brand-mark i { background: #071015; }
-.art-core .brand-mark { background: #071015; }
+.brand-mark { background: transparent; box-shadow: none; }
+.brand-mark i { background: var(--brand-gradient); }
+.art-core .brand-mark { background: transparent; }
 .art-core .brand-mark i { background: var(--brand-gradient); }
 
 .primary-nav > a:not(.nav-cta):hover,
