@@ -154,7 +154,8 @@ body {
 }
 
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 5;
   border-bottom-color: #c7ff6218;
   background: rgba(8, 15, 18, .86);
